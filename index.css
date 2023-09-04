@@ -1,13 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&display=swap');
+
 body {
+    font-family: 'Cabin', sans-serif;
     color: #fff;
     font-size: 150%;
     text-align: center;
+    background-color: #222;
+}
+
+.header {
+    font-weight: 600;
+    text-align: left;
+    margin: 30px 10px 10px 5px;
+}
+
+.body {
+    font-size: 90%;
+    font-weight: 400;
+    border: solid #333;
+    border-radius: 10px;
     background-color: #333;
 }
 
-h1 {
-    border: 2px solid #222;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: #222;
+a {
+    font-size: 120%;
+    color: #00aeff;
+    text-decoration: none;
+}
+
+.thefuckingpadding {
+    padding-top: 500px;
 }
